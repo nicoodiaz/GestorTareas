@@ -31,6 +31,11 @@ namespace GestorTareasTest
                     case "2":
                         gestor.ListarTareas();
                         break;
+                        case "3":
+                        Console.Write("ID de la tarea a completar: ");
+                        int idCompletar = int.Parse(Console.ReadLine());
+                        gestor.CompletarTarea(idCompletar);
+                        break;
                     case "4":
                         Console.Write("ID de la tarea a eliminar: ");
                         int idEliminar = int.Parse(Console.ReadLine());

@@ -2,7 +2,7 @@ using System;
 
 namespace GestorTareas.Clases 
 {
-    class GestorTareas 
+    class GestorTareasS 
     {
         private List<Tarea> tareas = new List<Tarea>();
         private int contadorId = 1;
